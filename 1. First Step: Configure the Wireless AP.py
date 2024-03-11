@@ -1,4 +1,4 @@
-After setting up the OS for the Raspberry Pi, I configured the Wireless AP
+#After setting up the OS for the Raspberry Pi, I configured the Wireless AP
 
 
 iface wlan0 inet static
