@@ -5,6 +5,7 @@ The main functionalities are:
 -Notifying the user via pop-up messages upon detecting a potentially malicious packet.
 -Logging detected events into a log file for future reference.
 
+```
 from csv import Sniffer
 from scapy.all import *
 import tkinter as tk
@@ -96,3 +97,4 @@ def start_sniffing():
 # Start packet sniffing in a separate thread
 sniff_thread = threading.Thread(target=start_sniffing)
 sniff_thread.start()
+```
