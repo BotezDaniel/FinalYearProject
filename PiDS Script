@@ -1,9 +1,9 @@
-This code represents the initial version of a network monitoring tool created to analyze incoming network traffic for potential threats. 
-It utilizes Python libraries such as Scapy for packet sniffing and Tkinter for GUI-based notifications. 
-The main functionalities are:
--Loading the Snort community rules and analyzing incoming packets against these rules.
--Notifying the user via pop-up messages upon detecting a potentially malicious packet.
--Logging detected events into a log file for future reference.
+#This code represents the initial version of a network monitoring tool created to analyze incoming network traffic for potential threats. 
+#It utilizes Python libraries such as Scapy for packet sniffing and Tkinter for GUI-based notifications. 
+#The main functionalities are:
+#-Loading the Snort community rules and analyzing incoming packets against these rules.
+#-Notifying the user via pop-up messages upon detecting a potentially malicious packet.
+#-Logging detected events into a log file for future reference.
 
 
 from csv import Sniffer
